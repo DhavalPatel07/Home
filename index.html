@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Page Needs -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- Mobile Specific Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>HTML Demo</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Favicons 
+    <link rel="icon" href="images/favicon.ico">-->
+    <!--Style CSS-->
+    <link href="css/custom.css" rel="stylesheet" type="text/css">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+	<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <!--[if gte IE 9]<style type="text/css">.gradient {filter: none;}</style><![endif]-->
+</head>
+<body id="Top">
+
+<div class="loader">
+<img src="images/logo.png" alt="Logo">
+Loader
+</div>
+
+<header>
+<div class="header">
+    	<div class="logo"><a href="index.html">Logo</a></div>
+        <div class="menu">
+        	<ul>
+            	<li><a href="#Top">Home</a></li>
+            	<li><a href="#About">About</a></li>
+                <li><a href="#Services">Services</a></li>
+                <li><a href="#">Port</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+        <div class="social-media">
+        	<ul class="display-inline">
+            	<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</header>
+<div class="wrapper-right">
+
+<div class="hero-banner parallax" data-parallax-bg-image="images/banner.jpg" data-parallax-speed="0.8" data-parallax-direction="down">
+	<div class="banner-contain col flex-center">
+    <div class="banner-text">
+		<h1>Lorem Ipsum is simply dummy</h1>
+	    <h5>Lorem Ipsum has been the industry's standard dummy</h5>
+    </div>
+    </div>
+</div>
+
+<div class="about-section" id="About">
+	<div class="col">
+		<div class="col-6 bg-img parallax" data-parallax-bg-image="images/banner.jpg" data-parallax-speed="0.8" data-parallax-direction="down" > 1 </div>
+        <div class="col-6 left-ctn-section">
+        	<h2>About Us</h2>
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.<br><br>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+        </div>
+    </div>
+
+   
+ 
+</div>
+<!-- Slider  -->
+<section id="Products" class="products-images">
+	<div class="col">
+    	<div class="flex-item">1</div>
+        <div class="flex-item">2</div>
+        <div class="flex-item">3</div>
+        <div class="flex-item">4</div>
+    </div>
+</section>
+
+
+
+<div class="owl-carousel" id="HeroSlider">
+	<div class="item"> <h4>1 Image</h4> </div>
+	<div class="item"> <h4>2 Image</h4> </div>
+    <div class="item"> <h4>3 Image</h4> </div>
+</div>
+
+<!-- Right Box Div -->
+</div>
+
+
+<hr>
+
+<div class="owl-carousel" id="Customer_logo">
+	<div class="item"> <h4>Logo 1</h4> </div>
+	<div class="item"> <h4>Logo 2</h4> </div>
+    <div class="item"> <h4>Logo 3</h4> </div>
+    <div class="item"> <h4>Logo 4</h4> </div>
+    <div class="item"> <h4>Logo 5</h4> </div>
+    <div class="item"> <h4>Logo 6</h4> </div>
+</div>
+
+<!-- Three Box -->
+<hr>
+<div class="three-box">
+	<ul>
+    	<li>Box 1</li>
+        <li>Box 2</li>
+        <li>Box 3</li>
+    </ul>
+</div>
+
+<hr>
+
+<div class="two-box">
+	<ul>
+    	<li>Box 11</li>
+        <li>Box 12</li>
+        <li>Box 13</li>
+        <li>Box 14</li>
+    </ul>
+</div>
+<hr>
+
+<!-- Equal Height -->
+<div class="flex-container">
+  <div>1</div>
+  <div>
+  	<p>The "align-items: flex-start;" aligns the flex items</p>
+    <p>The "align-items: flex-start;" aligns the flex items</p>
+  </div>
+  <div>3</div>  
+</div>
+<style>
+.flex-container {
+  display: flex;
+  align-items: flex-center;
+  background-color: DodgerBlue;
+}
+.flex-container > div {
+  background-color: #0000FF;
+  width: 33.33%;
+  margin: 10px;
+  text-align: center;
+  line-height: normal;
+  font-size: 30px;
+  padding: 10px;
+}
+</style>
+<!-- / Equal Height -->
+<hr>
+<style>
+*, body { -webkit-box-sizing: border-box; -moz-box-sizing: border-box;	box-sizing: border-box; }
+body {
+	padding: 0; margin: 0;
+}
+.owl-nav button span {
+	font-size: 40px;
+}
+#HeroSlider .item {
+	height: 50vh;
+	background:#666;
+}
+#Customer_logo .item {
+	height: 100px;
+	background:#999;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+	 -webkit-box-sizing: border-box; -moz-box-sizing: border-box;	box-sizing: border-box;
+}
+.two-box ul li {
+	background: #999;
+	margin: 1%;
+	padding: 10px;
+	list-style: none;
+}
+.three-box ul li {
+	-webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+	background: #999;
+	margin: 10px;
+	padding: 10px;
+	list-style: none;
+	
+}
+
+@media(min-width: 600px){
+	.two-box ul {
+		display: -webkit-flex;
+	    display: -ms-flex;
+    	display: flex;
+		flex-wrap: wrap;
+	}
+	.three-box ul {
+		display: -webkit-flex;
+	    display: -ms-flex;
+    	display: flex;
+		
+	}
+	.two-box ul li {  width: 48%; }
+}
+
+</style>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/parallax-background.min.js"></script>
+
+<!-- Smoth Scroll -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/ScrollToPlugin.min.js"></script>
+<script src="js/jQuery.scrollSpeed.js"></script>
+
+<script>
+// $(function() { jQuery.scrollSpeed(80, 1000); });
+(function ($) {
+	$('.parallax').parallaxBackground();
+	var year = new Date().getFullYear();
+	$('#year').append(year);
+})(jQuery);
+</script>
+
+<script src="js/queryloader2.min.js" type="text/javascript"></script>
+<script src="js/general.js"></script>
+
+<script>
+/* ~~~~~ Loader ~~~~~ */
+window.addEventListener('DOMContentLoaded', function () {
+			QueryLoader2(document.querySelector("body"), {
+				barColor: "",
+				backgroundColor: "",
+				percentage: false,
+				barHeight: 0,
+				minimumTime: 200,
+				fadeOutTime: 10,
+				onProgress: function (percentage, imagesLoaded, totalImages) {
+					$(".loader figure span").css("width", percentage + "%");
+				},
+				onComplete: function () {
+					 setTimeout(function () {
+						$(".loader").fadeOut();
+					}, 1000) 
+				}
+			});
+		});
+</script>
+</body>
+</html>
